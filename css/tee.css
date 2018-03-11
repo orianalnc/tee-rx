@@ -1,0 +1,208 @@
+
+
+ @font-face {
+    font-family: HelveticaNeueLTCom-Roman;
+    src: url(HelveticaNeueLTCom-Roman.ttf);
+  }
+ .menu{
+     background-color: transparent !important;
+ }
+
+ .slider {
+    height: 640px !important;
+ }
+ .slides{
+     height: 640px !important;
+ }
+ #service .row{
+     margin-bottom: 0 !important;
+ }
+
+ .tee{
+     background-color: #00a550 !important;
+     color: #a0b7af;
+ }
+ .pad{
+     padding: 5em 0 !important;
+ }
+
+
+
+ .about{
+     background-color: #f4f2f3;
+     margin-top: -40px;
+ }
+ 
+.cuadro{
+    border: 2px solid #00a550;
+    background-color: #a0b7af;
+    width: 400px;
+    height: 400px;
+}
+.about-img{
+    top: -12.5vh;
+    position: relative;
+}
+
+.title{
+    color: #00a550 !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+.width{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.contact{
+    background-color: #00a550;
+    color: #ffffff;
+    width: 100%;
+    height: auto;
+}
+
+.care_agileits{
+	padding:6em 0;
+    background: url("../img/dot.png"),url(../img/1.jpg) no-repeat right center;
+	background-size: cover;
+}
+.care_agileits h3 {
+    color: #ffffff;
+    font-size: 37px;
+    text-transform: capitalize;
+    line-height: 1.6em;
+}
+
+.care_agileits h4 {
+    color: #fff;
+    font-size: 23px;
+    margin: 22px 0 0px;
+}
+.care_agileits ul li{
+	font-size:16px;
+	color:#fff;
+	line-height:2.2em;
+	display:block;
+	margin:35px 0 0;
+}
+.care_agileits ul li a{
+	color:#fff;
+	text-decoration:none;
+}
+
+.care_agileits{
+    padding: 5em;
+}
+.care-height{
+	height: 510px;
+}
+
+.text{
+    font-size: 1.5rem;
+}
+
+.btn{
+    background-color: #00a550 !important;
+}
+
+.italic{
+    font-style: italic;
+}
+.font{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pad-botton{
+    padding: 0 0 1.5em 0;
+}
+
+.care{
+    background-color: #a8c2b9;
+}
+
+.pad-title{
+    padding: 3em 0 1em 0;
+}
+
+.bold{
+    font-weight: bold;
+}
+.yelloww{
+    color: #c4df9b !important;
+}
+.greenn{
+    color: #00a550 !important;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    background-color: #00a550;
+    border-radius: 12px;
+
+}
+.contact-text{
+    font-size: 1rem;
+}
+.divider{
+    margin: .5em 0 .5em 0;
+}
+.pad-contact{
+    padding: 1.5em 0 2.5em 0;
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea{
+    border: 1px solid #a8c2b9 !important;
+    border-radius: 9px !important;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.page-footer  {
+    background-color: #00a550 !important;
+}
+
+.teal{
+    background-color: #00a550 !important;
+}
+
+.map{
+    height: 500px;
+    width: 100%;
+    max-width: 100%;
+    background-color: #a0b7af;
+}
+.t{
+    font-size: 4rem;
+}
+
+.banner{
+    height: 280px;
+    width: 100%;
+    max-width: 100%
+    
+}
+
+.icon{
+    width: 40px;
+}
+
+.other-text{
+    font-size: 1.3rem;
+    padding: 0 1em 0 1em;
+
+}
