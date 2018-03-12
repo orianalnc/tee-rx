@@ -206,3 +206,20 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
     padding: 0 1em 0 1em;
 
 }
+
+
+
+#service p{
+    font-size: 1rem;
+    padding: 0.5em 0;
+    color: #fff;
+    line-height: 1.9em;
+}
+.line{
+    height: 4px;
+    width: 60px;
+    margin-top: .5em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #00a550;
+}
