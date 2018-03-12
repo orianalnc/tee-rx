@@ -11,40 +11,44 @@
     <link rel="stylesheet" href="css/tee.css">
     <link rel="stylesheet" href="css/materialize.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     
 
 </head>
 <body>
-<nav class="tee">
+<nav class="tee" id="home">
     <div class="nav-wrapper container center">
-        <!--<a href="#!" class="brand-logo">Logo</a>-->
+
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul  class=" right hide-on-med-and-down ">
-            <li><a href="">Home</a></li>
-            <li><a href="">About us</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Contact us</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact us</a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
-            <li><a href="">Home</a></li>
-            <li><a href="">About us</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">contact us</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">contact us</a></li>
         </ul>
     </div>
 </nav>
 
-<!-- 
  <div class="relative " style="height:780px; width: 100%; max-width: 100%;">
-    <div class="absolute"></div>
+    <div class="absolute ">
+        <div class="container white-text right centrado"> <p class="text center">Here at Tee Pharmacy we are a local institution, providing a familiar face and the utmost quality care. Our customers have come to expect the highest standard in service, and our pharmacists are always prepared to raise the challenge. <div class="text center">We are always innovating new ways to better serve you, the customer, which is why we welcome questions, comments and critiques. The Tee Pharmacy staff is patient and eager to help, so stop in and put our expertise to the test. </div> </p>
+        </div>
+       <!-- <div class="ralative"><a href="#!" class="brand-logo"><img src="img/logo.png" class="responsive-img" alt=""></a> </div>-->
+        </div>
 
 
     <img src="img/04.png" class="resposive-img" alt="">
-</div> -->
-    
+</div>
+<!--
     <div class="slider ">
     <ul class="slides">
         <li>
@@ -76,7 +80,7 @@
             </div>
         </li>
     </ul>
-</div>
+</div>-->
 
 
 <div id="service">
@@ -122,7 +126,7 @@
 
 
     <!-- ABOUT -->
-    <div class=" about pad">
+    <div class=" about pad" id="about">
          <div class="container">
         <div class="row ">
             <div class="center"  ><h2 class="title pad-botton">ABOUT US  <div class="line"></div></h2></div>
@@ -147,7 +151,7 @@
 
     <!-- sERVICES -->
 
-    <div class="container">
+    <div class="container" id="services">
         <div class="row pad">
             <div class="center" ><h2 class="title pad-botton">SERVICES  <div class="line"></div></h2></div>
             <div class="col s12 m6 l4 xl4">
@@ -185,7 +189,7 @@
     </div>
 
     <!-- OTHER -->
-    <div class="row care ">
+    <div class="row care " id="faq">
         <div class="col s12 m6 l6 xl6 ">
              <div class="relative center care_agileits care-height ">
                  <div class="absolute container white-text">
@@ -228,7 +232,7 @@
     </div>
 
     <!-- BLOG -->
-    <div class="container">
+    <!--<div class="container">
             <div class="row pad">
                 <div class="center" ><h2 class="title pad-botton">BLOG  <div class="line"></div></h2></div>
                 <div class="col s12 m6 l4 xl4">
@@ -282,20 +286,20 @@
                               </div>   
                         </div>
                 </div>
-                <!-- <div class="col s12 m6 l3 xl3">
+                &lt;!&ndash; <div class="col s12 m6 l3 xl3">
                         <div class="card-panel z-depth-2 "> 
                                 <div class="card-title center "> <h5>Other</h5> </div> 
                                 <div class="card-content"> <p> Tee Pharmacy offers medication services to make your day easier</p></div>
                                 <div class="card-action "><a class="btn right " href="">more</a> </div>  
                         </div>
-                </div> -->
+                </div> &ndash;&gt;
     
             </div>
         </div>
-   
+   -->
 
     <!-- Contact -->
-    <div class="container pad">
+    <div class="container pad" id="contact">
         <div class=" center"><h2 class="title pad-botton">APPOINTMENT Form  <div class="line"></div></h2></div>
         <div class="row">
              
@@ -440,6 +444,7 @@
 <script>
 
     $(document).ready(function(){
+        $('.parallax').parallax();
         $('.slider').slider();
         $(".button-collapse").sideNav();
     });
@@ -449,7 +454,8 @@
 
    
 
-    <script src="js/materialize.js"></script>
+    <script src="js/materialize/slider.js"></script>
+    <script src="js/materialize/bin/materialize.js"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
    
     

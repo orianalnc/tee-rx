@@ -11,14 +11,33 @@
     <link rel="stylesheet" href="css/tee.css">
     <link rel="stylesheet" href="css/materialize.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     
 
 </head>
 <body>
-<nav class="tee">
+
+
+<ul id="slide-out" class="side-nav">
+    <li><div class="user-view">
+        <div class="background">
+            <img src="images/office.jpg">
+        </div>
+        <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
+        <a href="#!name"><span class="white-text name">John Doe</span></a>
+        <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+    <li><a href="#!">Second Link</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+</ul>
+<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+<!--<nav class="tee">
     <div class="nav-wrapper container center">
-        <!--<a href="#!" class="brand-logo">Logo</a>-->
+        &lt;!&ndash;<a href="#!" class="brand-logo">Logo</a>&ndash;&gt;
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul  class=" right hide-on-med-and-down ">
             <li><a href="">Home</a></li>
@@ -35,7 +54,7 @@
             <li><a href="">contact us</a></li>
         </ul>
     </div>
-</nav>
+</nav>-->
 
 
  <div class="relative " >
@@ -174,6 +193,7 @@
     $(document).ready(function(){
         $('.slider').slider();
         $(".button-collapse").sideNav();
+
     });
 
 </script>
