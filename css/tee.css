@@ -1,4 +1,7 @@
-
+body{
+    overflow-x: hidden;
+    font-family: HelveticaNeueLTCom-Roman;
+}
 
  @font-face {
     font-family: HelveticaNeueLTCom-Roman;
@@ -222,4 +225,12 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
     margin-left: auto;
     margin-right: auto;
     background-color: #00a550;
+}
+
+.centrado{
+    padding: 2em;
+    background-color: rgba(7, 24, 12, 0.5);
+    position: relative;
+    left: 45%;
+    top: 20vh;
 }
