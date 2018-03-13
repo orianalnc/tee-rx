@@ -13,7 +13,28 @@
     <link rel="stylesheet" href="css/animate.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+
+    </style>
+
+    <script>
+        function initMap() {
+            var uluru = {lat: -25.363, lng: 131.044};
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 4,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+
 
 </head>
 <body>
@@ -91,8 +112,8 @@
                 <div>
                     <h4>New Prescription</h4>
                 </div>
-                <div><p  class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eligendi facilis, alias inventore quos animi. Et eligendi facilis, alias inventore quos anim</p></div>
-            </div></a> 
+               <!-- <div><p  class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eligendi facilis, alias inventore quos animi. Et eligendi facilis, alias inventore quos anim</p></div>
+            --></div></a>
         </div>
     <div class="col s12 m6 l3 xl3 tee card  z-depth-5 ">
        <a href="refill.html"> <div class=" tee pad center">
@@ -100,8 +121,8 @@
             <div>
                 <h4>Refill Prescription</h4>
             </div>
-            <div><p  class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eligendi facilis, alias inventore quos animi. Et eligendi facilis, alias inventore quos anim</p></div>
-        </div></a>
+            <!--<div><p  class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eligendi facilis, alias inventore quos animi. Et eligendi facilis, alias inventore quos anim</p></div>
+        --></div></a>
     </div>
     <div class="col s12 m6 l3 xl3 tee card  z-depth-2">
      <a href="transfer.html">   <div class=" tee pad center">
@@ -109,8 +130,8 @@
             <div>
                 <h4>Transfer Prescription</h4>
             </div>
-            <div><p  class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eligendi facilis, alias inventore quos animi. Et eligendi facilis, alias inventore quos anim</p></div>
-        </div></a>
+           <!-- <div><p  class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eligendi facilis, alias inventore quos animi. Et eligendi facilis, alias inventore quos anim</p></div>
+        --></div></a>
     </div>
     <div class="col s12 m6 l3 xl3 tee card  z-depth-5">
       <a href="mtm.html">  <div class=" tee pad center">
@@ -118,8 +139,8 @@
             <div>
                 <h4>MTM</h4>
             </div>
-            <div><p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eligendi facilis, alias inventore quos animi. Et eligendi facilis, alias inventore quos anim</p></div>
-        </div></a>
+           <!-- <div><p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eligendi facilis, alias inventore quos animi. Et eligendi facilis, alias inventore quos anim</p></div>
+        --></div></a>
     </div>
 </div>
 </div>
@@ -153,12 +174,19 @@
 
     <div class="container" id="services">
         <div class="row pad">
-            <div class="center" ><h2 class="title pad-botton">SERVICES  <div class="line"></div></h2></div>
+            <div class="center" ><h2 class="title pad-botton uppercase"> Other SERVICES  <div class="line"></div></h2></div>
             <div class="col s12 m6 l4 xl4">
                     <div class="card-panel z-depth-2"> 
                         <div class="card-title center "> <h5>Medication Services</h5> </div> 
-                        <div class="card-content center"> <p> Tee Pharmacy offers medication services to make your day easier.</p></div>
-                        <div class="card-action "><a class="btn right " href="">more</a> </div>
+                        <div class="card-content "> <p class="center"> Tee Pharmacy offers medication services to make your day easier.</p>
+                        <ul class="custom-counter left-align">
+                            <li>Free Medication Packing Services</li>
+                            <li>Email and Text Re-Fill Reminders</li>
+                            <li>Free Home and Office Delivery</li>
+                            <li>Insurance Accepted/Other Payment Methods Accepted</li>
+                        </ul>
+                        </div>
+                        <!--<div class="card-action "><a class="btn right " href="">more</a> </div>-->
                     <div>
                           </div>   
                     </div>
@@ -166,15 +194,36 @@
             <div class="col s12 m6 l4 xl4">
                 <div class="card-panel  z-depth-2 "> 
                         <div class="card-title center "> <h5>Consultation Services </h5> </div> 
-                        <div class="card-content center "> <p >We don’t just want to hand off your medications, take advantage of our consultation services.</p></div>
-                        <div class="card-action "><a class="btn right " href="">more</a> </div> 
+                        <div class="card-content  "> <p class="center" >We don’t just want to hand off your medications, take advantage of our consultation services.</p>
+                            <ul class="custom-counter left-align">
+                                <li> Walk- Ins</li>
+                                <li> Free Consultations</li>
+                                <li>Prescription Counseling</li>
+                                <li>Pharmacist Counseling</li>
+                                <li>Over-the-counter Medications</li>
+                                <li> Nursing Home Assistance</li>
+
+                            </ul>
+                        </div>
+                        <!--<div class="card-action "><a class="btn right " href="">more</a> </div> -->
                 </div>
             </div>
             <div class="col s12 m6 l4 xl4">
                     <div class="card-panel z-depth-2 "> 
                             <div class="card-title center "> <h5>MTM</h5> </div> 
-                            <div class="card-content center"> <p>Medication management therapy is defined as “a service or group of services that optimize therapeutic outcomes for individual patients.” These services include options such as:</p></div>
-                            <div class="card-action "><a class="btn right " href="">more</a> </div> 
+                            <div class="card-content "> <p class="center">Medication management therapy is defined as “a service or group of services that optimize therapeutic outcomes for individual patients.” These services include options such as:</p>
+                                <ul class="custom-counter left-align">
+                                    <li>  Medication therapy reviews</li>
+                                    <li> Pharmacotherapy consults</li>
+                                    <li>Disease management coach and support</li>
+                                    <li>Pharmacogenomics Applications</li>
+                                    <li>Over-the-counter Medications</li>
+                                    <li> Immunizations</li>
+                                    <li>Health and wellness programs</li>
+                                    <li>Medication safety Surveillance</li>
+                                </ul>
+                            </div>
+                            <!--<div class="card-action "><a class="btn right " href="">more</a> </div> -->
                     </div>
             </div>
             <!-- <div class="col s12 m6 l3 xl3">
