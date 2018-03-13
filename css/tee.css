@@ -29,6 +29,10 @@ body{
      padding: 5em 0 !important;
  }
 
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i{
+    font-size: 1.8rem !important;
+}
+
 
 
  .about{
@@ -121,7 +125,7 @@ body{
     font-style: italic;
 }
 .font{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: HelveticaNeueLTCom-Roman;
 }
 .pad-botton{
     padding: 0 0 1.5em 0;
@@ -194,7 +198,7 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 }
 
 .banner{
-    height: 280px;
+    height: 380px;
     width: 100%;
     max-width: 100%
     
@@ -205,7 +209,7 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 }
 
 .other-text{
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding: 0 1em 0 1em;
 
 }
@@ -233,4 +237,35 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
     position: relative;
     left: 45%;
     top: 20vh;
+}
+
+.banner{
+    background-image: url("../img/5.jpg");
+    background-position-y: 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.custom-counter {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.custom-counter li {
+    counter-increment: step-counter;
+    margin-bottom: 10px;
+
+}
+
+.custom-counter li::before {
+    content: counter(step-counter);
+    margin-right: 5px;
+    background-color: #00a550;
+    color: #00a550;
+    border-radius: 25px;
+    width: 15px;
+    height: 15px;
+
 }
