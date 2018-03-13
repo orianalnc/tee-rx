@@ -235,7 +235,7 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
     padding: 2em;
     background-color: rgba(7, 24, 12, 0.5);
     position: relative;
-    left: 45%;
+    left: 25%;
 
 }
 
