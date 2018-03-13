@@ -236,11 +236,11 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
     background-color: rgba(7, 24, 12, 0.5);
     position: relative;
     left: 45%;
-    top: 20vh;
+
 }
 
 .banner{
-    background-image: url("../img/5.jpg");
+    background-image: url("../img/1.jpg");
     background-position-y: 70%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -295,4 +295,35 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 .scroll-to-top:hover{
     text-decoration:none;
     color: #000;
+}
+
+.logo{
+    width: 200px;
+    top: -45vh;
+    position: relative;
+    left: 5%;
+}
+
+.rectangulo {
+    width: 250px;
+    height: 150px;
+    background: #00a550;
+    position: relative;
+    left: 2%;
+}
+.triangulo-2 {
+    width: 0;
+    height: 0;
+    border-top: 100px solid #00a550;
+    border-right: 250px solid transparent;
+    border-bottom: 50px solid transparent;
+    position: relative;
+    left: 2%;
+}
+
+#index .logo {
+    width: 200px;
+    top: -35vh;
+    position: relative;
+    left: 4%;
 }
