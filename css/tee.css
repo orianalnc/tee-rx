@@ -1,5 +1,5 @@
 body{
-    overflow-x: hidden;
+ 
     font-family: HelveticaNeueLTCom-Roman;
 }
 
@@ -47,8 +47,12 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i{
     height: 400px;
 }
 .about-img{
-    top: -12.5vh;
-    position: relative;
+    width: 400px;
+    text-align: center;
+    float: left;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
 }
 
 .title{
@@ -200,7 +204,11 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 .banner{
     height: 380px;
     width: 100%;
-    max-width: 100%
+    max-width: 100%;
+    background-image: url("../img/1.jpg");
+    background-position-y: 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 
@@ -236,14 +244,19 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
     background-color: rgba(7, 24, 12, 0.5);
     position: relative;
     left: 25%;
+    top: -35vh;
 
 }
 
-.banner{
-    background-image: url("../img/1.jpg");
-    background-position-y: 70%;
+.banner2{
+    height: 780px;
+    width: 100%;
+    max-width: 100%;
+    background-image: url("../img/5.jpg");
+    background-position: 50%;
     background-size: cover;
     background-repeat: no-repeat;
+  
 }
 
 
@@ -323,7 +336,13 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 
 #index .logo {
     width: 200px;
-    top: -35vh;
+    top: -45vh;
     position: relative;
     left: 4%;
+}
+
+@media (max-width: 1440px){
+    .logo{
+        top: -50vh;
+    }
 }
