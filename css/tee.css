@@ -453,6 +453,13 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
         text-align: center !important;
     }
 
+    #different .absolute{
+        position: relative !important;
+    }
+    .p-center{
+        text-align: center;
+    }
+
 }
 @media (max-width: 600px){
     #index .logo {
