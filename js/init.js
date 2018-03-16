@@ -1,6 +1,10 @@
+"use strict";
+(function($){
+    $(function(){
+        $('.button-collapse').sideNav();
+        $('#modal1').modal();
+        $('.tooltipped').tooltip({delay: 50});
+        Materialize.updateTextFields();
 
-$(document).ready(function(){
-    $(".slider").slider();
-    $(".button-collapse").sideNav();
-    $('.parallax').parallax();
-});
+    }); // end of document ready
+})(jQuery); // end of jQuery name space
