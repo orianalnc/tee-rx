@@ -1,5 +1,5 @@
 body{
- 
+    overflow-x: hidden;
     font-family: HelveticaNeueLTCom-Roman;
 }
 
@@ -190,13 +190,13 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 .teal{
     background-color: #00a550 !important;
 }
-
+/*
 .map{
     height: 500px;
     width: 100%;
     max-width: 100%;
     background-color: #a0b7af;
-}
+}*/
 .t{
     font-size: 4rem;
 }
@@ -243,9 +243,8 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
     padding: 2em;
     background-color: rgba(7, 24, 12, 0.5);
     position: relative;
-    left: 25%;
-    top: -35vh;
-
+    left: 55%;
+    top: -25vh;
 }
 
 .banner2{
@@ -312,7 +311,7 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 
 .logo{
     width: 200px;
-    top: -45vh;
+    top: -410px;
     position: relative;
     left: 5%;
 }
@@ -336,13 +335,216 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 
 #index .logo {
     width: 200px;
-    top: -45vh;
+    top: -340px;
     position: relative;
     left: 4%;
 }
+@media (max-width: 1680px){
+    .centrado {
+        left: 35%;
+        top: -200px;
+    }
+
+    .text {
+        font-size: 1.2rem !important;
+    }
+    .logo {
+        width: 200px;
+        top: -400px;
+        position: relative;
+        left: 5%;
+    }
+
+
+}
 
 @media (max-width: 1440px){
-    .logo{
-        top: -50vh;
+    .logo {
+        width: 200px;
+        top: -400px;
+        position: relative;
+        left: 5%;
+    }
+
+
+    h4{
+        font-size: 1.28rem !important;
+    }
+    .cuadro {
+        width: 300px;
+        height: 400px;
+    }
+    .about-img {
+        width: 300px;
+        left: 4%;
+    }
+    .text {
+        font-size: 1.2rem !important;
+    }
+    .centrado {
+        left: 10%;
+        top: -200px;
+    }
+    h2{
+        font-size: 3rem !important;
+    }
+    h5{
+        font-size: 1.2rem !important;
     }
 }
+
+@media (max-width: 992px){
+    #index .logo {
+        width: 100px;
+        top: -227px;
+        position: relative;
+        left: 45px;
+    }
+    .text {
+        font-size: 1.2rem;
+    }
+
+
+    .triangulo-2 {
+        width: 0;
+        height: 0;
+        border-top: 100px solid #00a550;
+        border-right: 150px solid transparent;
+        border-bottom: 50px solid transparent;
+        position: relative;
+        left: 2%;
+    }
+    .rectangulo {
+        width: 150px;
+        height: 75px;
+        background: #00a550;
+        position: relative;
+        left: 2%;
+    }
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i{
+        float: right;
+    }
+    .text {
+        font-size: 1.2rem;
+    }
+    .centrado {
+        left: 0;
+        top: -15vh;
+    }
+    .about-img {
+        width: 300px;
+        left: 4%;
+    }
+    .respon{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .title{
+        text-align: center;
+    }
+    .logo {
+        width: 100px;
+        top: -290px;
+        position: relative;
+        left: 45px;
+    }
+    #contact .right-align{
+        text-align: center !important;
+    }
+
+}
+@media (max-width: 600px){
+    #index .logo {
+        width: 100px;
+        top: -227px;
+        position: relative;
+        left: 10%;
+    }
+
+    .triangulo-2 {
+        width: 0;
+        height: 0;
+        border-top: 100px solid #00a550;
+        border-right: 150px solid transparent;
+        border-bottom: 50px solid transparent;
+        position: relative;
+        left: 2%;
+    }
+    .rectangulo {
+        width: 150px;
+        height: 75px;
+        background: #00a550;
+        position: relative;
+        left: 2%;
+    }
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i{
+        float: right;
+    }
+    .text {
+        font-size: 1rem;
+    }
+
+    .centrado {
+        left: 0;
+        top: -15vh;
+    }
+    .about-img {
+        width: 300px;
+        left: 4%;
+    }
+
+    .cuadro {
+        width: 300px;
+        height: 400px;
+    }
+
+    h2 {
+        font-size: 2rem !important;
+
+    }
+    .care_agileits {
+        padding: 2em;
+    }
+    .care_agileits h3 {
+
+        font-size: 25px;
+
+    }
+    .title{
+        text-align: center;
+    }
+
+    .btn{
+        margin-bottom: 10px;
+    }
+    #contact .right-align{
+    text-align: center !important;
+    }
+    .flex {
+        display: block;
+
+    }
+    .pad-contact{
+        padding: 0;
+    }
+    #different .absolute{
+        position: relative !important;
+    }
+    h5{
+        font-size: 1.2rem !important;
+    }
+    .logo {
+        width: 100px;
+        top: -290px;
+        position: relative;
+        left: 10%;
+    }
+
+}
+
+
+
+
+
+
