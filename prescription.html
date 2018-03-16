@@ -93,33 +93,34 @@
              <div class="col m9 l9 xl9 s12 "> 
                  <form action="">
                      <div class="col m12 l12 xl12 s12">
-                         <input type="text" placeholder=" Firts Name">
-                         <input type="text" placeholder=" Last Name">
+                         <input type="text" placeholder=" Firts Name" class="validate" required>
+                         <input type="text" placeholder=" Last Name" class="validate" required>
                          
                      </div>
                      <div class="col m12 l12 xl12 s12">
-                            <input type="text" placeholder="Email">
-                            <input type="text" placeholder="Phone">
+                            <input type="email" placeholder="Email" class="validate" required>
+                            <input type="text" placeholder="Phone" class="validate" required>
                             
                         </div>
                         <div class="col m12 l12 xl12 s12">
-                            <input type="text" placeholder="Dr Name">
-                            <input type="text" placeholder=" Dr Phone">
+                            <input type="text" placeholder="Dr Name" class="validate" required>
+                            <input type="text" placeholder=" Dr Phone" class="validate" required>
                             
                         </div>
                         <div class="col m12 l12 xl12 s12">
-                            <input type="text" placeholder="Medication">
+                            <input type="text" placeholder="Medication" class="validate" required>
                       
                             
                         </div>
                         <div class=" col xl12 l12 m12 s12">
-                            <textarea class="materialize-textarea" placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+                            <textarea class="materialize-textarea validate" placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
                         </div>
 
-                       <div class="center  col xl12 l12 m12 s12"><a class="btn pad-botton center" href="javascript:void(0)">Contact Our Pharmacist</a></div> 
+                       <div class="center  col xl12 l12 m12 s12">
+                           <a class="btn btn-large pad-botton center " onclick="Materialize.toast('Your message has been sent successfully', 4000)">Contact Our Pharmacist</a></div>
                  </form>
              </div>
-             <div class="col m3 l3 xl3 s12 contact "> 
+             <div class="col m3 l3 xl3 s12  ">
                  <div class="pad-contact">
                     <div class="center "> <h5 class="bold">Contact US</h5></div>
                     <div class="container"><span class="contact-text">Phone: 866-254-8044 </span></div>
@@ -130,17 +131,14 @@
                         <div class="divider"></div>
                         <div class="center"> <h5 class="bold">Other</h5></div>
                         <div class="container ">
-                            <a class="white-text" href="transfer.html"> <div class="material-icons "> 
-                                <img src="img/005.png" class="responsive-img icon" alt="transfer"><span class="other-text">Transfer </span></div></a>
+                            <a class="" href="transfer.html"> <div class="material-icons ">
+                                <img src="img/010-v.png" class="responsive-img icon" alt="transfer"></div><span style="margin-left:20px" class="greenn text">Transfer </span></a>
                         </div>
                         <div class="divider"></div>
                         <div class="container  ">
-                                <a class="white-text" href="refill.html"> <div class="material-icons "> 
-                                    <img src="img/005.png" class="responsive-img icon" alt="transfer"><span class="other-text">Refill </span></div></a>
+                                <a class="" href="refill.html"> <div class="material-icons ">
+                                    <img src="img/012-v.png" class="responsive-img icon" alt="transfer"></div><span style="margin-left:20px"   class="greenn text">Refill </span></a>
                         </div>
-
-                    
-                    
                 </div>
             </div>
         </div>
@@ -181,21 +179,18 @@
             </div>
         </div>
     </footer>
-
-<script>
-
-    $(document).ready(function(){
-        $('.slider').slider();
-        $(".button-collapse").sideNav();
-    });
-
-</script>
+</div>
 
 
-   
 
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-3.2.1.min.js"><\/script>')</script>
     <script src="js/materialize.js"></script>
-    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/init.js"></script>
+
+
    
     
 </body>
