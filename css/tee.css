@@ -243,7 +243,7 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
     padding: 2em;
     background-color: rgba(7, 24, 12, 0.5);
     position: relative;
-    left: 55%;
+    left: 60%;
     top: -25vh;
 }
 
@@ -549,6 +549,26 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
     }
 
 }
+
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid { /* when a field is considered invalid by the browser */
+   /* background: #fff url(images/invalid.png) no-repeat 98% center;*/
+    box-shadow: 0 0 5px #d45252;
+    border-color: #b03535 ;
+}
+.contact_form input:required:valid, .contact_form textarea:required:valid { /* when a field is considered valid by the browser */
+ /*   background: #fff url(images/valid.png) no-repeat 98% center;*//*   background: #fff url(images/valid.png) no-repeat 98% center;*/
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f ;
+}
+/*
+input.invalid:not([type]), input.invalid:focus:not([type]), input.invalid[type="text"]:not(.browser-default), input.invalid[type="text"]:focus:not(.browser-default), input.invalid[type="password"]:not(.browser-default), input.invalid[type="password"]:focus:not(.browser-default), input.invalid[type="email"]:not(.browser-default), input.invalid[type="email"]:focus:not(.browser-default), input.invalid[type="url"]:not(.browser-default), input.invalid[type="url"]:focus:not(.browser-default), input.invalid[type="time"]:not(.browser-default), input.invalid[type="time"]:focus:not(.browser-default), input.invalid[type="date"]:not(.browser-default), input.invalid[type="date"]:focus:not(.browser-default), input.invalid[type="datetime"]:not(.browser-default), input.invalid[type="datetime"]:focus:not(.browser-default), input.invalid[type="datetime-local"]:not(.browser-default), input.invalid[type="datetime-local"]:focus:not(.browser-default), input.invalid[type="tel"]:not(.browser-default), input.invalid[type="tel"]:focus:not(.browser-default), input.invalid[type="number"]:not(.browser-default), input.invalid[type="number"]:focus:not(.browser-default), input.invalid[type="search"]:not(.browser-default), input.invalid[type="search"]:focus:not(.browser-default), textarea.materialize-textarea.invalid, textarea.materialize-textarea.invalid:focus, .select-wrapper.invalid > input.select-dropdown{
+    border-color: #b03535 !important;
+}
+input.invalid:not([type]), input.invalid:focus:not([type]), input.invalid[type="text"]:not(.browser-default), input.invalid[type="text"]:focus:not(.browser-default), input.invalid[type="password"]:not(.browser-default), input.invalid[type="password"]:focus:not(.browser-default), input.invalid[type="email"]:not(.browser-default), input.invalid[type="email"]:focus:not(.browser-default), input.invalid[type="url"]:not(.browser-default), input.invalid[type="url"]:focus:not(.browser-default), input.invalid[type="time"]:not(.browser-default), input.invalid[type="time"]:focus:not(.browser-default), input.invalid[type="date"]:not(.browser-default), input.invalid[type="date"]:focus:not(.browser-default), input.invalid[type="datetime"]:not(.browser-default), input.invalid[type="datetime"]:focus:not(.browser-default), input.invalid[type="datetime-local"]:not(.browser-default), input.invalid[type="datetime-local"]:focus:not(.browser-default), input.invalid[type="tel"]:not(.browser-default), input.invalid[type="tel"]:focus:not(.browser-default), input.invalid[type="number"]:not(.browser-default), input.invalid[type="number"]:focus:not(.browser-default), input.invalid[type="search"]:not(.browser-default), input.invalid[type="search"]:focus:not(.browser-default), textarea.materialize-textarea.invalid, textarea.materialize-textarea.invalid:focus, .select-wrapper.invalid > input.select-dropdown{
+    border-color: #28921f !important;
+}*/
+
+
 
 
 
