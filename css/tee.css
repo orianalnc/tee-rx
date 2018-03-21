@@ -548,6 +548,11 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
         left: 10%;
     }
 
+    #different .pad{
+        padding: 0 !important;
+
+    }
+
 }
 
 .contact_form input:focus:invalid, .contact_form textarea:focus:invalid { /* when a field is considered invalid by the browser */
@@ -567,11 +572,3 @@ input.invalid:not([type]), input.invalid:focus:not([type]), input.invalid[type="
 input.invalid:not([type]), input.invalid:focus:not([type]), input.invalid[type="text"]:not(.browser-default), input.invalid[type="text"]:focus:not(.browser-default), input.invalid[type="password"]:not(.browser-default), input.invalid[type="password"]:focus:not(.browser-default), input.invalid[type="email"]:not(.browser-default), input.invalid[type="email"]:focus:not(.browser-default), input.invalid[type="url"]:not(.browser-default), input.invalid[type="url"]:focus:not(.browser-default), input.invalid[type="time"]:not(.browser-default), input.invalid[type="time"]:focus:not(.browser-default), input.invalid[type="date"]:not(.browser-default), input.invalid[type="date"]:focus:not(.browser-default), input.invalid[type="datetime"]:not(.browser-default), input.invalid[type="datetime"]:focus:not(.browser-default), input.invalid[type="datetime-local"]:not(.browser-default), input.invalid[type="datetime-local"]:focus:not(.browser-default), input.invalid[type="tel"]:not(.browser-default), input.invalid[type="tel"]:focus:not(.browser-default), input.invalid[type="number"]:not(.browser-default), input.invalid[type="number"]:focus:not(.browser-default), input.invalid[type="search"]:not(.browser-default), input.invalid[type="search"]:focus:not(.browser-default), textarea.materialize-textarea.invalid, textarea.materialize-textarea.invalid:focus, .select-wrapper.invalid > input.select-dropdown{
     border-color: #28921f !important;
 }*/
-
-
-
-
-
-
-
-

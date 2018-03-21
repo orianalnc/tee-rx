@@ -315,7 +315,7 @@
                             <div class="col m12 s12 l6 xl6 ">
                                 <div class="flex">
                                      <div class="col m2 s6 l2 xl2"> <i class="material-icons"> <img src="img/002-alarm-clock.png" width="40px" alt=""></i> </div>
-                                    <div class="col m8 s6 l8 xl8"> <h5 class="greenn uppercase">Mon-Fri: 9am -5pm  <div>OPENED</div></h5></div> 
+                                    <div class="col m8 s6 l8 xl8"> <h5 class="greenn uppercase">Mon-Fri: 9am -5pm: OPENED <div>Sat- Sun: CLOSED   </div></h5></div>
                                 </div> 
                             </div>
                             <div class="col m12 s12 l6 xl6 ">
@@ -380,7 +380,7 @@
     function initMap() {
         var tee = {lat: 40.766658, lng: -73.789647};
         var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 10,
+            zoom: 20,
             center: tee
         });
         var marker = new google.maps.Marker({
@@ -396,10 +396,7 @@
 </script>
 
 
-
-
-
-
+<script src='https://www.google.com/recaptcha/api.js'></script>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="js/jquery-3.2.1.min.js"><\/script>')</script>
