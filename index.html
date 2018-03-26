@@ -235,7 +235,7 @@
         <div class="row">
              
              <div class="col m9 l9 xl9 s12 "> 
-                 <form action="contacts@teepharmacy.com" class="contact_form"  method="post">
+                 <form action="vendor/contact.php" class="contact_form"  method="post"  name="frmContacto">
                      <div class="col m6 l6 xl6 s12">
                          <input type="text" placeholder=" Firts Name" class="validate" required>
                          <input type="text" placeholder=" Last Name"  class="validate" required>
@@ -250,7 +250,9 @@
                             <textarea class="materialize-textarea" placeholder="Message" name="" id="" cols="30" rows="10" required></textarea>
                         </div>
 
-                        <div class="col s12 m12 l12 xl12 right-align"><a class="btn pad-botton" href="javascript:void(0)">Contact</a> </div>
+                        <div class="col s12 m12 l12 xl12 right-align">
+                            <input type="submit" class="btn pad-botton "  value="Contact Our Pharmacist" />
+                             </div>
                  </form>
              </div>
              <div class="col m3 l3 xl3 s12 contact "> 
