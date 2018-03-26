@@ -42,18 +42,21 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i{
  
 .cuadro{
     border: 2px solid #00a550;
-    background-color: #a0b7af;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: auto;
+    background-image: url("../img/5834-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
 }
-.about-img{
+/*.about-img{
     width: 400px;
     text-align: center;
     float: left;
     position: absolute;
     bottom: 0;
     left: 15%;
-}
+}*/
 
 .title{
     color: #00a550 !important;
@@ -241,10 +244,11 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 
 .centrado{
     padding: 2em;
-    background-color: rgba(7, 24, 12, 0.5);
+    background-color: rgba(0, 0, 0, 0.15);
     position: relative;
     left: 60%;
     top: -25vh;
+    color: #000;
 }
 
 .banner2{
