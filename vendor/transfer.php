@@ -17,7 +17,7 @@ $message = $_POST["message"];
 $content = "First Name: " . $first . "\nLast Name:" . $last . "\nE-mail: " .$email . "\nPhone: " . $phone . "\nPharmacy Name: " . $pharmacyName . "\nPharmacy Phone: " . $pharmacyPhone . "\nRx Numbers:" . $rxNumber . "\nDr Name: " . $drName .  "\n Dr Phone: " . $drPhone .  "\nMessage: " .$message;
 
 mail($to, "Contacto desde Transfer Prescription", $content);
-header("location: index.html");
+header("location: ../index.html");
 
 
 

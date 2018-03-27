@@ -13,7 +13,7 @@ $message = $_POST["message"];
 $content = "First Name: " . $first . "\nLast Name:" . $last . "\nE-mail: " .$email . "\nPhone: " . $phone .  "\nRx Numbers : " . $rxNumber . "\nMessage: " .$message;
 
 mail($to, "Contacto desde Refill Prescription", $content);
-header("location: index.html");
+header("location: ../index.html");
 
 
 

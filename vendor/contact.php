@@ -11,8 +11,8 @@ $message = $_POST["message"];
 
 $content = "First Name: " . $first . "\nLast Name:" . $last . "\nE-mail: " .$email . "\nPhone: " . $phone . "\nMessage: " .$message;
 
-mail($to, "Contacto desde New Prescription", $content);
-header("location: index.html");
+mail($to, "Contacto desde Contacts Form", $content);
+header("location: ../index.html");
 
 
 

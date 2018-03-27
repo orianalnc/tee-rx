@@ -15,7 +15,7 @@
     $content = "First Name: " . $first . "\nLast Name:" . $last . "\nE-mail: " .$email . "\nPhone: " . $phone . "\nDr Name: " . $drName .  "\n Dr Phone: " . $drPhone . "\nMedication : " . $medication . "\nMessage: " .$message;
 
     mail($to, "Contacto desde New Prescription", $content);
-    header("location: index.html");
+    header("location: ../index.html");
 
 
 
