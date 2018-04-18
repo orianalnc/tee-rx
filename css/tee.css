@@ -216,7 +216,7 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 }
 
 .icon{
-    width: 40px;
+    width: 20px;
 }
 
 .other-text{
@@ -581,11 +581,16 @@ input.invalid:not([type]), input.invalid:focus:not([type]), input.invalid[type="
 .ir-arriba {
     display:none;
     padding:20px;
-    background: #00a550;
+    background: #a7c1ba;
     font-size:20px;
     color:#fff;
     cursor:pointer;
     position: fixed;
     bottom:20px;
     right:20px;
+    z-index: 9;
+}
+
+.text-side{
+    font-size: 1rem;
 }
