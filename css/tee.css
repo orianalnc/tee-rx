@@ -594,3 +594,8 @@ input.invalid:not([type]), input.invalid:focus:not([type]), input.invalid[type="
 .text-side{
     font-size: 1rem;
 }
+
+#about p::first-letter {
+    color: #00a550;
+    font-size: 2rem;
+}
