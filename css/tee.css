@@ -1,11 +1,12 @@
 body{
     overflow-x: hidden;
     font-family: HelveticaNeueLTCom-Roman;
+    letter-spacing: .8px;
 }
 
  @font-face {
     font-family: HelveticaNeueLTCom-Roman;
-    src: url(HelveticaNeueLTCom-Roman.ttf);
+    src: url(../font/HelveticaNeueLTCom-Roman.ttf);
   }
  .menu{
      background-color: transparent !important;
@@ -569,13 +570,7 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
     box-shadow: 0 0 5px #5cd053;
     border-color: #28921f ;
 }
-/*
-input.invalid:not([type]), input.invalid:focus:not([type]), input.invalid[type="text"]:not(.browser-default), input.invalid[type="text"]:focus:not(.browser-default), input.invalid[type="password"]:not(.browser-default), input.invalid[type="password"]:focus:not(.browser-default), input.invalid[type="email"]:not(.browser-default), input.invalid[type="email"]:focus:not(.browser-default), input.invalid[type="url"]:not(.browser-default), input.invalid[type="url"]:focus:not(.browser-default), input.invalid[type="time"]:not(.browser-default), input.invalid[type="time"]:focus:not(.browser-default), input.invalid[type="date"]:not(.browser-default), input.invalid[type="date"]:focus:not(.browser-default), input.invalid[type="datetime"]:not(.browser-default), input.invalid[type="datetime"]:focus:not(.browser-default), input.invalid[type="datetime-local"]:not(.browser-default), input.invalid[type="datetime-local"]:focus:not(.browser-default), input.invalid[type="tel"]:not(.browser-default), input.invalid[type="tel"]:focus:not(.browser-default), input.invalid[type="number"]:not(.browser-default), input.invalid[type="number"]:focus:not(.browser-default), input.invalid[type="search"]:not(.browser-default), input.invalid[type="search"]:focus:not(.browser-default), textarea.materialize-textarea.invalid, textarea.materialize-textarea.invalid:focus, .select-wrapper.invalid > input.select-dropdown{
-    border-color: #b03535 !important;
-}
-input.invalid:not([type]), input.invalid:focus:not([type]), input.invalid[type="text"]:not(.browser-default), input.invalid[type="text"]:focus:not(.browser-default), input.invalid[type="password"]:not(.browser-default), input.invalid[type="password"]:focus:not(.browser-default), input.invalid[type="email"]:not(.browser-default), input.invalid[type="email"]:focus:not(.browser-default), input.invalid[type="url"]:not(.browser-default), input.invalid[type="url"]:focus:not(.browser-default), input.invalid[type="time"]:not(.browser-default), input.invalid[type="time"]:focus:not(.browser-default), input.invalid[type="date"]:not(.browser-default), input.invalid[type="date"]:focus:not(.browser-default), input.invalid[type="datetime"]:not(.browser-default), input.invalid[type="datetime"]:focus:not(.browser-default), input.invalid[type="datetime-local"]:not(.browser-default), input.invalid[type="datetime-local"]:focus:not(.browser-default), input.invalid[type="tel"]:not(.browser-default), input.invalid[type="tel"]:focus:not(.browser-default), input.invalid[type="number"]:not(.browser-default), input.invalid[type="number"]:focus:not(.browser-default), input.invalid[type="search"]:not(.browser-default), input.invalid[type="search"]:focus:not(.browser-default), textarea.materialize-textarea.invalid, textarea.materialize-textarea.invalid:focus, .select-wrapper.invalid > input.select-dropdown{
-    border-color: #28921f !important;
-}*/
+
 
 
 .ir-arriba {
@@ -598,4 +593,49 @@ input.invalid:not([type]), input.invalid:focus:not([type]), input.invalid[type="
 #about p::first-letter {
     color: #00a550;
     font-size: 2rem;
+}
+
+.collapsible {
+    border-top: 0px solid #ddd !important;
+    border-right: 0px solid #ddd !important;
+    border-left: 0px solid #ddd !important;
+    margin: 0.5rem 0 1rem 0;
+}
+
+.collapsible-header{
+    font-size: 1.5rem;
+}
+
+.collapsible-body{
+    font-size: 1.2rem
+    
+}
+
+.collapsible-body ul li{
+    list-style: square !important;
+    padding: 1em;
+    
+}
+
+.space{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-item1{
+    flex: 1 1 100%;
+    padding-left: 15px;
+}
+
+#oc-contact .material-icons{
+    font-size: 43px;
+    color: #00a550;
+}
+
+#oc-contact .oc-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
